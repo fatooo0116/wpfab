@@ -1,0 +1,26 @@
+#work_content{
+    min-height: 800px;
+    padding-top:300px;
+    
+
+    .item{
+        width:33.33%;
+        padding:0 35px; 
+        display: block;
+        .thumbnail{
+            img{
+                display:block;
+                width: 100%;;
+            }
+        }
+        h3{
+            font-size: 1.4915vw;
+        }
+        p{
+            font-size: 1.36991vw;
+            font-weight: 300;
+            display: inline;
+            word-break: break-word;            
+        }
+    }
+}

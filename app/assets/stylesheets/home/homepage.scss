@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,700&display=swap');
+
+body{
+    font-family: 'Nunito','Noto Sans TC', sans-serif;
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+@import "part/reset";
+@import "part/footer";
+
+@import "part/aboutus";
+@import "part/home_slider";
+@import "part/header";
+@import "part/service";
+@import "part/contact";
+@import "part/work_content";
+@import "part/service_content";
